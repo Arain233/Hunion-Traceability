@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/haiunion?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: lpr12345678908
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: "海港云溯服务端"
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8283"
+        instance:
+          service-base-url: "http://localhost:8282"
+
+
+mybatis:
+  type-aliases-package: com.southwind.springboottest.entity
+server:
+  port: 8282
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+

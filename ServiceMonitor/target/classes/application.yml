@@ -1,0 +1,19 @@
+server:
+  port: 8283
+spring:
+  application:
+    name: Haiunion-Monitor
+  boot:
+    admin:
+      ui:
+        title: "海港云溯服务监控"
+
+spring.boot.admin.notify.mail.to: 910834340@qq.com
+spring.boot.admin.notify.mail.from: 910834340@qq.com
+spring.mail.host: smtp.qq.com
+spring.mail.username: 910834340@qq.com
+spring.mail.password: qlyvjyuiawjpbejg
+spring.mail.properties.mail.smtp.auth: true
+spring.mail.properties.mail.smtp.starttls.enable: true
+spring.mail.properties.mail.smtp.starttls.required: true
+spring.mail.default-encoding: UTF-8

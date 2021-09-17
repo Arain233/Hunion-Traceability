@@ -1,0 +1,23 @@
+@import "./mixin";
+
+.@{prefix}-toast{
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  padding: 20px;
+  position: fixed;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(0,0,0,.7);
+  animation: toastScaleIn .2s ease forwards;
+  @keyframes toastScaleIn {
+    0%{
+      transform: scale(.8, .8) translate(-50%, -50%);
+    }
+    100%{
+      transform: scale(1, 1) translate(-50%, -50%);
+    }
+  }
+}

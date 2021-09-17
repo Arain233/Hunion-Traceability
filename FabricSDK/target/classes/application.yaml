@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "海港云溯联盟链服务"
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8283"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

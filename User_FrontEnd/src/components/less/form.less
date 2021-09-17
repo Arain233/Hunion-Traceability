@@ -1,0 +1,57 @@
+.zui-form {
+  .zui-form-item {
+    font-size: 0;
+    margin: 15px 0;
+    .zui-form-label {
+      font-size: 16px;
+      min-width: 95px;
+      text-align: right;
+      display: inline-block;
+      padding: 10px 30px 10px 0;
+    }
+    .zui-form-input{
+      min-width: 610px;
+      font-size: 16px;
+      line-height: 50px;
+      padding: 0 10px;
+      border: 1px solid #B3B3B3;
+      background: #F2F2F2;
+      &:focus{
+        border-color: #F7931E;
+      }
+    }
+    .zui-button{
+      min-width: 610px;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .zui-form{
+    padding: 20px;
+    .zui-form-item{
+      margin: 10px 0;
+      position: relative;
+      .zui-form-label{
+        padding: 0;
+        text-align: left;
+        line-height: 25px;
+        top: 2px;
+        left: 5px;
+        position: absolute;
+      }
+      .zui-form-input{
+        width: 100%;
+        min-width: 100px;
+        line-height: 25px;
+        padding-left: 75px;
+        text-align: right;
+      }
+      .zui-button{
+        margin: 0;
+        width: 100%;
+        min-width: 100px;
+        line-height: 30px;
+      }
+    }
+  }
+}

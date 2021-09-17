@@ -1,0 +1,15 @@
+com\southwind\springboottest\repository\User_RoleTest.class
+com\southwind\springboottest\repository\Tra_codeTest.class
+com\southwind\springboottest\repository\IPFSTest.class
+com\southwind\springboottest\repository\DigestTest$data.class
+com\southwind\springboottest\repository\CmdTest.class
+com\southwind\springboottest\repository\DealerTest.class
+com\southwind\springboottest\repository\HttpTest.class
+com\southwind\springboottest\repository\pdfTest.class
+com\southwind\springboottest\repository\MaterialTest.class
+com\southwind\springboottest\repository\SM4Test.class
+com\southwind\springboottest\repository\CommodityTest.class
+com\southwind\springboottest\repository\DigestTest.class
+com\southwind\springboottest\repository\SM2Test.class
+com\southwind\springboottest\repository\RetailerTest.class
+com\southwind\springboottest\SpringboottestApplicationTests.class

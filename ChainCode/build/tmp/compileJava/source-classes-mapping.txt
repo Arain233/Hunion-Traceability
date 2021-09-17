@@ -1,0 +1,6 @@
+org/hyperledger/fabric/Commodity.java
+ org.hyperledger.fabric.Commodity
+org/hyperledger/fabric/MedQueryResult.java
+ org.hyperledger.fabric.MedQueryResult
+org/hyperledger/fabric/CommodityCC.java
+ org.hyperledger.fabric.CommodityCC

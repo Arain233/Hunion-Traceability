@@ -1,0 +1,126 @@
+.customer-case {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 90px 0 100px 0;
+  h2 {
+    color: #F7931E;
+    font-size: 40px;
+    text-align: center;
+  }
+  p {
+    color: #808080;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .customer-case-carousel {
+    margin-top: 35px;
+    .customer-case-carousel-item {
+      float: left;
+      max-width: 540px;
+      min-height: 320px;
+      margin: 10px;
+      padding: 20px 0;
+      background: #DEF0EF;
+      border: 2px dashed #6AC2B5;
+      position: relative;
+      &:after {
+        clear: both;
+        content: '';
+        display: table;
+      }
+      h3 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 50px;
+        padding: 0 0 10px 0;
+        border-bottom: 3px solid #6AC2B5;
+      }
+      h5{
+        color: #808080;
+        font-size: 20px;
+        text-align: center;
+        font-weight: normal;
+        margin-top: 10px;
+      }
+      .labels{
+        position: relative;
+        .zui-label {
+          top: -5px;
+          left: 20px;
+          display: block;
+          min-width: 116px;
+          position: absolute;
+          &:nth-child(2){
+            top: 50px;
+          }
+        }
+        p {
+          color: #000;
+          font-size: 25px;
+          text-align: left;
+          padding: 0 30px 0 165px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .customer-case{
+    max-width: 100%;
+    padding: 25px 10px;
+    h2{
+      font-size:24px;
+    }
+    p{
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .customer-case-carousel{
+      margin-top: 25px;
+      .customer-case-carousel-item{
+        margin: 10px 0;
+        padding: 10px 0;
+        min-width: 100%;
+        min-height: auto;
+        h3{
+          font-size: 16px;
+          margin: 0 20px;
+        }
+        h5{
+          font-size: 12px;
+        }
+        .labels{
+          .zui-label{
+            top: -5px;
+            left: 20px;
+            font-size: 12px;
+            min-width: 85px;
+            &:nth-child(2){
+              top: 30px;
+            }
+          }
+          p{
+            font-size: 14px;
+            margin: 10px 0 0 0;
+            padding: 0 20px 0 125px;
+          }
+        }
+      }
+      .VueCarousel-pagination{
+        .VueCarousel-dot-container{
+          .VueCarousel-dot{
+            margin-top: 0!important;
+            padding: 5px!important;
+            .VueCarousel-dot-inner{
+              width: 8px!important;
+              height: 8px!important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
