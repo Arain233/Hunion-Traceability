@@ -140,7 +140,7 @@ Hunion-Traceability
 
 * ### Manage_FrontEnd
 
-  后台管理前端面板，主要用于系统、区块链等的服务监控和供应链数据入库上链等操作，管理员准入
+  Backend management front-end panel, mainly for the system, blockchain and other services monitoring and supply chain data entry on the chain and other operations, administrator access.
 
   ```
   npm install
